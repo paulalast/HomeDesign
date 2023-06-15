@@ -1,6 +1,8 @@
 import React from "react"
 const Card = ({ title, content }) => (
-	<div className='p-4 bg-white  shadow-lg rounded-xl  w-full my-4 mx-8 '>
+	<div
+		className=' darkMode flex-wrap p-6 bg-white  shadow-lg rounded-xl  w-full my-4 mx-8 max-w-it '
+	>
 		<h4 className='font-bold mb-6'>{title}</h4>
 		<p className='text-center text-sm'>{content}</p>
 	</div>
@@ -10,9 +12,9 @@ const AboutUsText = () => {
 		<div className='flex flex-col m-2 '>
 			<h3 className='my-6'>
 				Why we should be your
-				<span className='bg-amber-700/30	'> first choice ?</span>{" "}
+				<span className='bg-orange-700'> first choice ?</span>
 			</h3>
-			<div className='flex my-14 mx-4'>
+			<div className='flex my-14 mx-4 max-lg:flex-wrap'>
 				<Card
 					title='Unmatched Experience'
 					content='We bring years of industry experience to ensure the best results for your projects. We bring years of industry experience to ensure the best results for your projects.'

@@ -10,7 +10,7 @@ function Navigation() {
 					src='/logo.png'
 					width={50}
 					alt='logo'
-					className='bg-amber-900/10 rounded-full'
+					className='bg-white rounded-full'
 				/>
 			</div>
 			<ul className='flex flex-row justify-end space-x-2'>
