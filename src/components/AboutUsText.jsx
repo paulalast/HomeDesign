@@ -9,7 +9,7 @@ const Card = ({ title, content }) => (
 )
 const AboutUsText = () => {
 	return (
-		<div className='flex flex-col m-2 '>
+		<div className='flex flex-col m-2  '>
 			<h3 className='my-6'>
 				Why we should be your
 				<span className='bg-orange-700'> first choice ?</span>

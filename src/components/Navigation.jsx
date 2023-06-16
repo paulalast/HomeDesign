@@ -13,7 +13,7 @@ function Navigation() {
 					className='bg-white rounded-full'
 				/>
 			</div>
-			<ul className='flex flex-row justify-end space-x-2'>
+			<ul className='flex flex-row  justify-end space-x-2 max-md:flex-wrap'>
 				<li className='p-2'>
 					<Link to='/'>Home</Link>
 				</li>
@@ -32,11 +32,15 @@ function Navigation() {
 				<li className='p-2'>
 					<Link to='/contact'>Contact</Link>
 				</li>
-				<li className='p-2'>
-					<img src='/facebook.png' width={24} alt='fb' />
+				<li className='p-2 max-md:hidden'>
+					<a href=''>
+						<img src='/facebook.png' width={24} alt='fb' />
+					</a>
 				</li>
-				<li className='p-2'>
-					<img src='/instagram.png' width={24} alt='ig' />
+				<li className='p-2 max-md:hidden'>
+					<a href=''>
+						<img src='/instagram.png' width={24} alt='ig' />
+					</a>
 				</li>
 			</ul>
 		</nav>

@@ -1,7 +1,48 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
 #root {
-	width: 95vw;
-	max-width: 1440px;
-	margin: 0 auto;
-	padding: 0 2rem;
+	max-width: 100vw;
+	margin: 0;
+	padding: 0;
 	text-align: center;
+	justify-items: center;
+	z-index: 100;
+}
+.app-page {
+	margin: 0 auto;
+	padding: 2em;
+	width: 90vw;
+	max-width: 1440px;
+}
+.loading-bg {
+	display: flex;
+	background-image: url("./../header.jpeg");
+	justify-content: center;
+	align-items: center;
+	width: 100vw;
+	height: 100vh;
+	background-size: cover;
+	margin: 0;
+	left: 0;
+	position: absolute;
+	padding: 0;
+	z-index: 1000;
+}
+
+.box {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background: rgba(239, 235, 232, 0.79);
+	z-index: 1000000;
+}
+@media (isloading: true) {
+	:root {
+		margin: 0;
+		padding: 0;
+		width: 100vw;
+	}
 }

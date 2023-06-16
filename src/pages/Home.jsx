@@ -11,7 +11,7 @@ import Sitemap from "../components/Sitemap"
 OurTeam
 const Home = () => {
 	return (
-		<div>
+		<div >
 			<Header />
 			<AboutUs />
 			<AboutUsText />

@@ -3,10 +3,10 @@ import { Link } from "react-router-dom"
 const OurTeam = () => {
 	return (
 		<div
-			className='flex justify-between align-self-center mx-1 my-2  p-6
+			className='flex max-md:flex-col justify-between align-self-center mx-1 my-2  p-6 my-12
         '
 		>
-			<div className='flex flex-col items-start m-2'>
+			<div className='flex flex-col items-start m-2 '>
 				<h3 className='text-left'>
 					Our <span className='bg-orange-700 px-2'>Team</span>
 				</h3>

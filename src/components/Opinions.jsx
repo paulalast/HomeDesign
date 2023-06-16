@@ -10,10 +10,10 @@ function Card({ name, text }) {
 
 function Opinions() {
 	return (
-		<div className='flex flex-row-reverse justify-around mt-32'>
+		<div className='flex flex-row-reverse max-md:flex-col justify-around mt-32'>
 			<div>
 				<h3 className=' flex flex-col w-3/5 justify-center items-center whitespace-wrap '>
-					Words from our{" "}
+					Words from our
 					<span className=' px-5 bg-orange-700/90 whitespace-wrap'> valued clients </span>
 				</h3>
 				<p className="w-1/2 mt-6">

@@ -9,7 +9,7 @@ function Header() {
 				alt='modern living room'
 			/>
 			<div className= ' darkMode absolute left-24 top-56 p-4 bg-white/80 max-lg:left-50 max-lg:top-50 max-lg:left-1/2 max-lg:top-1/2 max-lg:transform max-lg:-translate-x-1/2 max-lg:-translate-y-1/2'>
-				<h1 className='px-8'>Home Design</h1>
+				<h1 className='px-8'>HomeDesign</h1>
 				<h2 className='p-2'>
 					Unleash Your Creativity
 					<span className='block'>and Redefine Your Living Space</span>
