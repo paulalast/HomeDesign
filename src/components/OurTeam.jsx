@@ -20,7 +20,7 @@ const OurTeam = () => {
 			</div>
 			<div>
 				<img
-					src='/team.jpg'
+					src='./team.jpg'
 					className='duration-300 ease-in-out hover:scale-105 '
 					width={500}
 					height={500}

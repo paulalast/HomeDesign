@@ -4,7 +4,7 @@ function Header() {
 	return (
 		<header className=' flex relative justify-end'>
 			<img
-				src='/header.jpeg'
+				src='./header.jpeg'
 				className='w-9/12 max-lg:w-full p-4 '
 				alt='modern living room'
 			/>

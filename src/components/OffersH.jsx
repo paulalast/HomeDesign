@@ -16,16 +16,16 @@ const OffersH = () => {
 			</div>
 			<div className='gallery-container'>
 				<div className='image-container div1'>
-					<img src='/interior3.jpg' alt='s' className='gallery-image ' />
+					<img src='./interior3.jpg' alt='s' className='gallery-image ' />
 				</div>
 				<div className='image-container div2'>
-					<img src='/interior5.jpg' alt='s' className='gallery-image ' />
+					<img src='./interior5.jpg' alt='s' className='gallery-image ' />
 				</div>
 				<div className='image-container div3'>
-					<img src='/interior4.jpg' alt='s' className='gallery-image ' />
+					<img src='./interior4.jpg' alt='s' className='gallery-image ' />
 				</div>
 				<div className='image-container div4'>
-					<img src='/interior6.jpg' alt='s' className='gallery-image ' />
+					<img src='./interior6.jpg' alt='s' className='gallery-image ' />
 				</div>
 			</div>
 		</section>

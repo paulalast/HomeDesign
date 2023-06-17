@@ -19,7 +19,7 @@
 }
 .loading-bg {
 	display: flex;
-	background-image: url("./header.jpeg");
+	background-image: url("./../header.jpeg");
 	justify-content: center;
 	align-items: center;
 	width: 100vw;

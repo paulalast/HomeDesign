@@ -31,12 +31,12 @@ function Navigation() {
 				</li>
 				<li className='p-2 max-md:hidden'>
 					<a href=''>
-						<img src='/facebook.png' width={24} alt='fb' />
+						<img src='./facebook.png' width={24} alt='fb' />
 					</a>
 				</li>
 				<li className='p-2 max-md:hidden'>
 					<a href=''>
-						<img src='/instagram.png' width={24} alt='ig' />
+						<img src='./instagram.png' width={24} alt='ig' />
 					</a>
 				</li>
 			</ul>

@@ -8,7 +8,7 @@ const ContactH = () => {
 			</h3>
 			<div className='flex flex-row relative justify-center items-center w-full'>
 				<img
-					src='/contact.jpeg'
+					src='./contact.jpeg'
 					className='h-full w-1/3 max-md:hidden'
 					alt='beige interior minimal'
 				/>
