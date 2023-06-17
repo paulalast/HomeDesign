@@ -1,5 +1,5 @@
 import React, { useEffect } from "react"
-import Header from "./../components/Header"
+import Header from "../components/Header"
 import AboutUs from "./../components/AboutUs"
 import OffersH from "./../components/OffersH"
 import OurTeam from "./../components/OurTeam"
