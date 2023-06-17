@@ -27,9 +27,6 @@ function Navigation() {
 					<Link to='/team'>Team</Link>
 				</li>
 				<li className='p-2'>
-					<Link to='/services'>Services</Link>
-				</li>
-				<li className='p-2'>
 					<Link to='/contact'>Contact</Link>
 				</li>
 				<li className='p-2 max-md:hidden'>

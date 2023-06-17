@@ -2,7 +2,7 @@ import React from "react"
 
 function Header() {
 	return (
-		<div className=' flex relative justify-end'>
+		<header className=' flex relative justify-end'>
 			<img
 				src='/header.jpeg'
 				className='w-9/12 max-lg:w-full p-4 '
@@ -15,7 +15,7 @@ function Header() {
 					<span className='block'>and Redefine Your Living Space</span>
 				</h2>
 			</div>
-		</div>
+		</header>
 	)
 }
 

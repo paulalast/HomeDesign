@@ -10,7 +10,7 @@ function Card({ name, text }) {
 
 function Opinions() {
 	return (
-		<div className='flex flex-row-reverse max-md:flex-col justify-around mt-32'>
+		<section className='flex flex-row-reverse max-md:flex-col justify-around mt-32'>
 			<div>
 				<h3 className=' flex flex-col w-3/5 justify-center items-center whitespace-wrap '>
 					Words from our
@@ -33,7 +33,7 @@ function Opinions() {
 					text={`Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia consectetur totam amet recusandae repudiandae iste pariatur. Aperiam quas neque at.Quia consectetur totam amet recusandae repudiandae iste pariatur. Aperiam quas neque at.`}
 				/>
 			</div>
-		</div>
+		</section>
 	)
 }
 

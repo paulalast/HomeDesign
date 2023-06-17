@@ -2,7 +2,7 @@ import React from "react"
 
 const ContactH = () => {
 	return (
-		<div className='flex flex-col  mt-10 w-9/12  justify-center items-center mx-auto max-md:w-11/12'>
+		<section className='flex flex-col  mt-10 w-9/12  justify-center items-center mx-auto max-md:w-11/12'>
 			<h3 className='mb-6'>
 				<span className=' px-2  bg-orange-700	'>Contact</span> Us
 			</h3>
@@ -39,7 +39,7 @@ const ContactH = () => {
 					</button>
 				</form>
 			</div>
-		</div>
+		</section>
 	)
 }
 

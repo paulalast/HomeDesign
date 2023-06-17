@@ -4,7 +4,7 @@ import { Link } from "react-router-dom"
 
 const OffersH = () => {
 	return (
-		<div className='flex flex-col relative justify-center'>
+		<section className='flex flex-col relative justify-center'>
 			<h3>Offers</h3>
 			<div className='flex flex-row justify-center'>
 				<button className='w-30 rounded-none  border border-slate-500 transition ease-in-out duration-300 hover:bg-green-800 px-8 py-2 m-4'>
@@ -28,7 +28,7 @@ const OffersH = () => {
 					<img src='/interior6.jpg' alt='s' className='gallery-image ' />
 				</div>
 			</div>
-		</div>
+		</section>
 	)
 }
 

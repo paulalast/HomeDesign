@@ -50,6 +50,10 @@ body {
 	padding: 0;
 	font-size: 62.5%;
 }
+section{
+	margin: 2em;
+	
+}
 .bold {
 	font-weight: var(--font-bold);
 }

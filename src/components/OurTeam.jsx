@@ -2,7 +2,7 @@ import React from "react"
 import { Link } from "react-router-dom"
 const OurTeam = () => {
 	return (
-		<div
+		<section
 			className='flex max-md:flex-col justify-between align-self-center mx-1 my-2  p-6 my-12
         '
 		>
@@ -27,7 +27,7 @@ const OurTeam = () => {
 					alt='team at the office'
 				/>
 			</div>
-		</div>
+		</section>
 	)
 }
 
