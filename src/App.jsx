@@ -30,6 +30,7 @@ const App = () => {
 			) : (
 				<div className='app-page flex flex-col'>
 					<Navigation />
+					<Home/>
 					<Routes>
 						<Route path='/' element={<Home />} />
 						<Route path='/offers' element={<Offers />} />
