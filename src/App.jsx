@@ -7,8 +7,8 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
 import Offers from "./pages/Offers"
 import Projects from "./pages/Projects"
 import Team from "./pages/Team"
-import Contact from "./pages/Contact"
-import Home from "./pages/Home"
+import Contact from "/pages/Contact"
+import Home from "/pages/Home"
 
 const App = () => {
 	const [isLoading, setIsLoading] = useState(true)
