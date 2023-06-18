@@ -3,13 +3,20 @@ import "./App.css"
 import LoadingScreen from "./components/LoadingScreen"
 import Navigation from "./components/Navigation"
 import { useEffect, useState } from "react"
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
+import { Routes, Route, HashRouter } from "react-router-dom"
+
 import Offers from "./pages/Offers"
 import Projects from "./pages/Projects"
 import Team from "./pages/Team"
 import Contact from "./pages/Contact"
 import Home from "./pages/Home"
 
+const router = createHashRouter([
+	{
+		path: "/*",
+		element: <App />,
+	},
+])
 const App = () => {
 	const [isLoading, setIsLoading] = useState(true)
 
@@ -24,7 +31,7 @@ const App = () => {
 	}, [])
 
 	return (
-		<Router>
+		<HashRouter>
 			{isLoading ? (
 				<LoadingScreen />
 			) : (
@@ -39,7 +46,7 @@ const App = () => {
 					</Routes>
 				</div>
 			)}
-		</Router>
+		</HashRouter>
 	)
 }
 
