@@ -32,8 +32,8 @@ const App = () => {
 				<div className='app-page flex flex-col'>
 					<Navigation />
 					<Routes>
-						<Route exact path='/' component={<Home />} />
-						<Route path='/offers' component={<Offers />} />
+						<Route exact path='/' element={<Home />} />
+						<Route path='/offers' element={<Offers />} />
 						<Route path='/projects' element={<Projects />} />
 						<Route path='/team' element={<Team />} />
 						<Route path='/contact' element={<Contact />} />
