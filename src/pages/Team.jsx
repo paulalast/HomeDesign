@@ -11,11 +11,13 @@ function TeamMember({
 }) {
 	return (
 		<div
-			className={`flex flex-row-reverse m-6 md:justify-between my-40 ${
-				index % 2 === 0 ? "md:flex-row" : ""
+			className={`flex m-6 max-2xl:flex-col max-2xl:items-center my-40 ${
+				index % 2 === 0
+					? "flex-row lg:flex-row-reverse"
+					: "flex-row-reverse lg:flex-row"
 			}`}
 		>
-			<div className='w-96 h-96 m-auto md:m-0 flex-none overflow-hidden'>
+			<div className='w-96 h-96 max-lg:w-64 max-lg:h-64 m-auto md:m-0 flex-none overflow-hidden'>
 				<div className='image-container transform transition-transform duration-300 hover:scale-125'>
 					<img
 						className='w-full h-full object-cover object-top'
@@ -24,7 +26,7 @@ function TeamMember({
 					/>
 				</div>
 			</div>
-			<div className='flex flex-col m-4 py-2 px-12 flex-grow'>
+			<div className='flex flex-col m-4 py-2 px-10 flex-grow'>
 				<h2>{memberName}</h2>
 				<h4>{memberPosition}</h4>
 				<p>{memberAbout}</p>
@@ -76,20 +78,14 @@ const Team = () => {
 	]
 
 	return (
-		<div>
-			<div className='flex max-md:flex-col justify-between align-self-center mx-1 my-2 p-6       '>
-				<div className='flex flex-col items-start m-2   '>
+		<div className="w:9/12"> 
+			<div className='flex max-md:flex-col justify-between align-self-center mx-1 my-2 p-6'>
+				<div className='flex flex-col items-start m-2'>
 					<h3 className='text-left'>
 						Meet our<span className='bg-orange-700 px-2'>Team </span>
 					</h3>
 
-					<p className='w-2/3 p-4 '>
-						We are a team of experts in the field of interior design, dedicated
-						to utilizing our passion and creativity to create unique and
-						functional spaces. Our company was founded with the aim of
-						delivering high-quality design services that transform homes and
-						offices into inspiring and comfortable environments.
-					</p>
+					<p className='p-4 w-1/2'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro quisquam aperiam amet tenetur laborum et. Esse modi molestiae id expedita placeat odio autem dolores natus facilis incidunt atque, suscipit perspiciatis nisi totam porro. Rem officia sunt harum nihil nobis dolorem!</p>
 				</div>
 			</div>
 			<div>

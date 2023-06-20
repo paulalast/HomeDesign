@@ -9,8 +9,8 @@ const Card = ({ title, content }) => (
 )
 const AboutUsText = () => {
 	return (
-		<section className='flex flex-col m-2  '>
-			<h3 className='my-6'>
+		<section className='flex flex-col m-2 mt-0 '>
+			<h3 className='my-2'>
 				Why we should be your
 				<span className='bg-orange-700'> first choice ?</span>
 			</h3>

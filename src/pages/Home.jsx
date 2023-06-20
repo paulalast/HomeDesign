@@ -50,9 +50,7 @@ const Home = () => {
 			<section className='section'>
 				<ContactH />
 			</section>
-			<section className='section'>
-				<Sitemap />
-			</section>
+		
 		</main>
 	)
 }

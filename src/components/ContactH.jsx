@@ -34,9 +34,11 @@ const ContactH = () => {
 						placeholder='Message:'
 						className='h-60 w-full shadow border my-4 p-4 border-slate-400'
 					/>
-					<button className='w-1/3 rounded-none border flex items-center justify-center border-slate-500 transition ease-in-out duration-300 hover:bg-green-800 px-8 py-2 m-4'>
-						Send
-					</button>
+				<div className='main-button-container'>
+						<button className='btn main-button'>
+							<span className='btn-span'> Send</span>
+						</button>
+					</div>
 				</form>
 			</div>
 		</section>
