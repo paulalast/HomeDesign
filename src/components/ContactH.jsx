@@ -1,4 +1,5 @@
 import React from "react"
+import Button from "./Button"
 
 const ContactH = () => {
 	return (
@@ -34,11 +35,7 @@ const ContactH = () => {
 						placeholder='Message:'
 						className='h-60 w-full shadow border my-4 p-4 border-slate-400'
 					/>
-				<div className='main-button-container'>
-						<button className='btn main-button'>
-							<span className='btn-span'> Send</span>
-						</button>
-					</div>
+					<Button type='submit' text='SEND' />
 				</form>
 			</div>
 		</section>

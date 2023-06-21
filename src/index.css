@@ -23,6 +23,60 @@
 	-moz-osx-font-smoothing: grayscale;
 	-webkit-text-size-adjust: 100%;
 }
+.darkMode {
+	background-color: #031e14;
+	color: #ffffff;
+}
+@media (prefers-color-scheme: light) {
+	:root {
+		color: #131414;
+		background-color: #ffffff;
+	}
+	a {
+		color: #000000;
+	}
+	a:hover {
+		color: #1b1b1d;
+	}
+	button {
+		background-color: #f9f9f9;
+		color: #000000;
+	}
+	button:hover {
+		background-color: white;
+		color: #000000;
+	}
+	
+	
+	.darkMode {
+		background-color: white;
+		color: #000;
+	}
+	input,
+	textarea {
+		background: rgba(233, 233, 233, 0.609);
+	}
+	input::placeholder,
+	textarea::placeholder {
+		font-weight: var(--font-bold);
+	}
+	.mobile-nav {
+		background-color: rgba(255, 255, 255, 0.909);
+	}
+	.main-button::before,
+	.main-button::after {
+		border: 1px solid rgb(3, 3, 3);
+	}
+	.btn-span {
+		color: #000000;
+	}
+	.btn {
+		color: #000;
+	}
+	button {
+		color: #000;
+	}
+}
 .bold {
 	font-weight: var(--font-bold);
 }
@@ -30,9 +84,7 @@
 	background-color: #fff;
 	z-index: 10000000;
 }
-.darkMode {
-	background-color: #031e14;
-}
+
 *:focus {
 	outline: none;
 }
@@ -43,13 +95,15 @@ textarea {
 	resize: none;
 }
 a {
+	font-size: 1.1rem;
 	font-weight: 500;
 	text-decoration: inherit;
-	color: #ffffff;
+	color: #000000;
 	font-family: var(--font-paragraph);
+	transition: color .3s;
 }
 a:hover {
-	color: #ffffff;
+	color: var(--orange-color);
 }
 
 body {
@@ -90,20 +144,10 @@ p {
 	text-align: justify;
 	margin: 1em auto;
 }
-/* li {
-	margin: 1rem;
-	font-family: var(--font-heading);
-	font-weight: var(--font-medium);
-	font-size: 1rem;
-} */
+
 button {
 	font-family: var(--font-paragraph);
 	font-size: 1.2em;
-	background-color: #052519;
-	color: #8a1414;
-}
-button:hover {
-	color: #532020;
 }
 
 @media screen and (max-width: 1100px) {
@@ -150,46 +194,11 @@ button:hover {
 		text-align: center;
 	}
 	li {
-		font-size: 1em;
+		font-size: 1.2em;
 		padding: 0.1em;
 		margin: 0;
 		text-align: center;
 		justify-self: center;
 		align-self: center;
-	}
-}
-
-@media (prefers-color-scheme: light) {
-	:root {
-		color: #131414;
-		background-color: #ffffff;
-	}
-	a {
-		color: #000000;
-	}
-	a:hover {
-		color: #1b1b1d;
-	}
-	button {
-		background-color: #f9f9f9;
-		color: #000;
-	}
-	button:hover {
-		background-color: white;
-		color: #010101;
-	}
-	.main-button::before,
-	.main-button::after {
-		border: 1px solid rgba(4, 4, 4, 0.5);
-	}
-	.btn-span {
-		color: #000;
-	}
-	.darkMode {
-		background-color: white;
-	}
-	input,
-	textarea {
-		background: rgb(248, 245, 245);
 	}
 }

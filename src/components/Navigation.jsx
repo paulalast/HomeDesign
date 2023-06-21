@@ -4,11 +4,11 @@ import { useMediaQuery } from "react-responsive"
 import MobileNavigation from "./MobileNavigation"
 
 const Navigation = () => {
-	const isMobile = useMediaQuery({ query: "(max-width: 760px)" })
+	const isMobile = useMediaQuery({ query: "(max-width: 765px)" })
 
 	return (
 		<nav className='flex items-center justify-between px-4 py-2'>
-			<div className='p-2 px-4'>
+			<div className='p-2 px-4 max-md:hidden'>
 				<img
 					src='./logo.png'
 					width={50}
@@ -20,19 +20,19 @@ const Navigation = () => {
 				<MobileNavigation />
 			) : (
 				<ul className='flex flex-row  justify-end space-x-4 '>
-					<li >
+					<li>
 						<Link to='/'>Home</Link>
 					</li>
-					<li >
+					<li>
 						<Link to='/offers'>Offers</Link>
 					</li>
-					<li >
+					<li>
 						<Link to='/projects'>Projects</Link>
 					</li>
-					<li >
+					<li>
 						<Link to='/team'>Team</Link>
 					</li>
-					<li >
+					<li>
 						<Link to='/contact'>Contact</Link>
 					</li>
 					<li className='p-1 rounded-full max-lg:hidden'>

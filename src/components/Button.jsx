@@ -13,7 +13,7 @@ const Button = ({ text, to, type = "link", className, onClick }) => {
 	} else if (type === "submit") {
 		return (
 			<div className={`main-button-container ${className}`}>
-				<button className='btn main-button' type='submit' onClick={onClick}>
+				<button className='btn main-button ' type='submit' onClick={onClick}>
 					<span className='btn-span'> {text}</span>
 				</button>
 			</div>

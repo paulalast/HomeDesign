@@ -43,7 +43,7 @@ const App = () => {
 				<LoadingScreen />
 			) : (
 				<motion.div
-					className='app-page flex flex-col'
+					className='app-page flex flex-col max-lg:w-screen'
 					initial='hidden'
 					animate='visible'
 					variants={appVariants}

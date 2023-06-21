@@ -6,7 +6,7 @@ const Contact = () => {
 			<h3 className='mb-6'>
 				<span className='px-2 bg-orange-700'>Contact</span> Us
 			</h3>
-			<p className="p-8 m-2 w-1/2">
+			<p className='p-8 m-2 w-1/2 max-md:w-full'>
 				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit est
 				deleniti repellendus, veritatis sint, molestias mollitia sunt aperiam,
 				vel quas nemo soluta odit praesentium ipsum!

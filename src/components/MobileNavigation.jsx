@@ -11,9 +11,17 @@ const MobileNavigation = () => {
 
 	return (
 		<>
-			<button onClick={toggleMenu} className='menu-button'>
-				<img src='./menu.png' width={24} alt='menu icon' />
-			</button>
+			<div className='nav-panel'>
+				<button className='logo-button'>
+					<Link to='/'>
+						<img  className='nav-logo' src='./logo.png' alt='logo' />
+					</Link>
+				</button>
+				
+				<button onClick={toggleMenu} className='menu-button'>
+					<img className='menu-icon'  src='./menu.png' alt='menu icon' />
+				</button>
+			</div>
 			{isOpen && (
 				<div className='mobile-nav open'>
 					<ul className='mobile-menu'>

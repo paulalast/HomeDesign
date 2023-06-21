@@ -11,7 +11,7 @@ function TeamMember({
 }) {
 	return (
 		<div
-			className={`flex m-6 max-2xl:flex-col max-2xl:items-center my-40 ${
+			className={`flex m-6 max-2xl:flex-col max-2xl:items-center my-40 max-lg:my-10 ${
 				index % 2 === 0
 					? "flex-row lg:flex-row-reverse"
 					: "flex-row-reverse lg:flex-row"
@@ -26,7 +26,7 @@ function TeamMember({
 					/>
 				</div>
 			</div>
-			<div className='flex flex-col m-4 py-2 px-10 flex-grow'>
+			<div className='flex flex-col m-4 py-2 px-10 flex-grow max-lg:p-1'>
 				<h2>{memberName}</h2>
 				<h4>{memberPosition}</h4>
 				<p>{memberAbout}</p>
@@ -78,14 +78,20 @@ const Team = () => {
 	]
 
 	return (
-		<div className="w:9/12"> 
-			<div className='flex max-md:flex-col justify-between align-self-center mx-1 my-2 p-6'>
+		<div className='w-full'>
+			<div className='flex max-md:flex-col justify-between align-self-center mx-1 my-2 p-6 '>
 				<div className='flex flex-col items-start m-2'>
 					<h3 className='text-left'>
 						Meet our<span className='bg-orange-700 px-2'>Team </span>
 					</h3>
 
-					<p className='p-4 w-1/2'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro quisquam aperiam amet tenetur laborum et. Esse modi molestiae id expedita placeat odio autem dolores natus facilis incidunt atque, suscipit perspiciatis nisi totam porro. Rem officia sunt harum nihil nobis dolorem!</p>
+					<p className='p-4 w-1/2 max-lg:w-full max-lg:p-1'>
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro
+						quisquam aperiam amet tenetur laborum et. Esse modi molestiae id
+						expedita placeat odio autem dolores natus facilis incidunt atque,
+						suscipit perspiciatis nisi totam porro. Rem officia sunt harum nihil
+						nobis dolorem!
+					</p>
 				</div>
 			</div>
 			<div>

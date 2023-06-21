@@ -1,7 +1,7 @@
 import React from "react"
 const Card = ({ title, content }) => (
 	<div
-		className=' darkMode flex-wrap p-6 bg-white  shadow-lg rounded-xl  w-full my-4 mx-8 max-w-it '
+		className=' darkMode flex-wrap p-6 bg-white  shadow-lg rounded-lg  w-full my-4 mx-8 max-lg:mx-0 hover:scale-105 duration-300'
 	>
 		<h4 className='font-bold mb-6'>{title}</h4>
 		<p className='text-center text-sm'>{content}</p>
@@ -14,7 +14,7 @@ const AboutUsText = () => {
 				Why we should be your
 				<span className='bg-orange-700'> first choice ?</span>
 			</h3>
-			<div className='flex my-14 mx-4 max-lg:flex-wrap'>
+			<div className='flex my-14 mx-4 max-lg:flex-wrap mx-0 max-lg:my-2'>
 				<Card
 					title='Unmatched Experience'
 					content='We bring years of industry experience to ensure the best results for your projects. We bring years of industry experience to ensure the best results for your projects.'
