@@ -1,6 +1,6 @@
 import React from "react"
 import Button from "./Button"
-import { motion } from "framer-motion";
+import { motion } from "framer-motion"
 
 const OurTeam = () => {
 	const variants = {
@@ -27,7 +27,7 @@ const OurTeam = () => {
 					comfort and joy for years to come.
 				</p>
 
-				<Button to='/team' text='Meet <br/> Us'  />
+				<Button to='/team' text='Meet Us' />
 			</div>
 			<div>
 				<img

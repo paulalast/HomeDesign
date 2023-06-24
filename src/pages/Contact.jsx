@@ -1,4 +1,5 @@
 import React from "react"
+import Form from "../components/Form"
 
 const Contact = () => {
 	return (
@@ -17,43 +18,10 @@ const Contact = () => {
 					className='h-full w-1/3 max-md:hidden'
 					alt='beige interior minimal'
 				/>
-				<form
-					className='flex flex-col w-1/2 items-center ml-14 max-md:ml-0 max-md:w-full'
-					action=''
-				>
-					<label htmlFor='name'></label>
-					<input
-						type='text'
-						name='name'
-						placeholder='Name'
-						className='border shadow border-slate-400 w-full p-4 my-4'
-					/>
-					<label htmlFor='email'></label>
-					<input
-						type='email'
-						name='email'
-						placeholder='Email'
-						className='border shadow border-slate-400 w-full p-4'
-					/>
-					<label htmlFor='message'></label>
-					<textarea
-						name='message'
-						placeholder='Message'
-						className='h-60 w-full shadow border my-4 p-4 border-slate-400'
-					></textarea>
-					<div className='main-button-container'>
-						<button className='btn main-button'>
-							<span className='btn-span'> Send</span>
-						</button>
-					</div>
-				</form>
+				<Form />
 			</div>
 		</div>
 	)
 }
 
 export default Contact
-
-{
-	/* <button className="main-button w-1/3 rounded-none border flex items-center justify-center border-slate-500 transition ease-in-out duration-300 hover:bg-green-800 px-8 py-2 m-4 btn-two"> */
-}

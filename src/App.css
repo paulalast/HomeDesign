@@ -105,7 +105,9 @@
 }
 
 /* IMAGES / ABOUTUS FRAME /  OFFERS PICTURES */
-
+.modal-open {
+	background: #000;
+}
 .image-with-border::before,
 .image-with-border::after {
 	content: "";
@@ -242,4 +244,34 @@
 	.main-button {
 		transform: scale(0.8);
 	}
+}
+/* TOAST CONTAINER*/
+
+.Toastify__toast-container {
+	z-index: 9999;
+}
+
+.Toastify__toast-container--top-right {
+	top: 1em;
+	right: 1em;
+}
+
+.Toastify__toast {
+	border-radius: 4px;
+}
+
+.Toastify__toast--success {
+	background-color: #c1410b;
+}
+
+.Toastify__toast-body {
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+	color: #000000;
+}
+.Toastify__progress-bar--success {
+	background: #c1410b !important;
+}
+svg {
+	fill: #c1410b !important;
 }

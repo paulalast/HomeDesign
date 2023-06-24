@@ -1,5 +1,6 @@
 import React from "react"
-import Button from "./Button"
+
+import Form from "./Form"
 
 const ContactH = () => {
 	return (
@@ -10,33 +11,10 @@ const ContactH = () => {
 			<div className='flex flex-row relative justify-center items-center w-full'>
 				<img
 					src='./contact.jpeg'
-					className='h-full w-1/3 max-md:hidden'
+					className='h-full w-1/3 opacity-80 max-md:hidden hover:scale-105 hover:opacity-100  duration-1000'
 					alt='beige interior minimal'
 				/>
-				<form
-					className='flex flex-col w-1/2 items-center ml-14 max-md:ml-0 max-md:w-full'
-					action=''
-				>
-					<label htmlFor='email'></label>
-					<input
-						type='text'
-						name='name'
-						placeholder='Name:'
-						className='border shadow border-slate-400 w-full p-4 my-4'
-					/>
-					<input
-						type='email'
-						placeholder='Email:'
-						className='border shadow border-slate-400 w-full p-4'
-					/>
-					<label htmlFor='msg'></label>
-					<textarea
-						type='text'
-						placeholder='Message:'
-						className='h-60 w-full shadow border my-4 p-4 border-slate-400'
-					/>
-					<Button type='submit' text='SEND' />
-				</form>
+				<Form />
 			</div>
 		</section>
 	)

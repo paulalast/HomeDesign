@@ -4,10 +4,10 @@ function Card({ name, text, img, alt }) {
 		<div className='border-2 m-4 mb-8 p-6 max-lg:mb-6 max-lg:m-0 flex flex-col items-end'>
 			<p className='mb-auto'>{text}</p>
 			<div className='flex flex-row items-flex-end mt-6 w-7/12 '>
-				<div className='flex w-1/2 rounded-full shadow-md p-0.5 mx-2'>
+				<div className='flex w-1/2 rounded-full  p-0.5 mx-2'>
 					<div className='w-14 h-14 '>
 						<img
-							className='flex rounded-full w-full h-full object-cover object-top hover:scale-125 duration-300'
+							className='flex shadow-md rounded-full w-full h-full object-cover object-top hover:scale-125 duration-300'
 							src={img}
 							alt={alt}
 						/>

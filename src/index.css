@@ -9,6 +9,7 @@
 	--font-regular: 500;
 	--font-bold: 600;
 	--orange-color: #ee6a0c;
+	--toastify-color-progress-success: #c1410b;
 	color-scheme: light dark;
 	color: rgba(255, 255, 255, 0.87);
 	background-color: #021213;
@@ -46,8 +47,7 @@
 		background-color: white;
 		color: #000000;
 	}
-	
-	
+
 	.darkMode {
 		background-color: white;
 		color: #000;
@@ -100,7 +100,7 @@ a {
 	text-decoration: inherit;
 	color: #000000;
 	font-family: var(--font-paragraph);
-	transition: color .3s;
+	transition: color 0.3s;
 }
 a:hover {
 	color: var(--orange-color);

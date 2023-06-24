@@ -19,7 +19,8 @@
     "react-router-dom": "^6.13.0",
     "react-scroll": "^1.8.9",
     "react-scroll-parallax": "^3.4.2",
-    "react-scrollama": "^2.3.2"
+    "react-scrollama": "^2.3.2",
+    "react-toastify": "^9.1.3"
   },
   "devDependencies": {
     "@tailwindcss/forms": "^0.5.3",
