@@ -121,12 +121,13 @@ h1 {
 	font-size: 5em;
 	line-height: 1.1;
 	font-family: var(--font-heading);
-	z-index: 100;
+	z-index: 0;
 	padding: 0.2em 0.4em;
 }
 h2 {
 	font-family: var(--font-paragraph);
 	font-size: 1.6em;
+	z-index: 0;
 }
 h3 {
 	font-size: 4.2em;
