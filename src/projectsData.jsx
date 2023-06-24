@@ -27,7 +27,7 @@ const projectsData = {
 	],
 	kidsRoom: [
 		{ src: "./projects/kids.jpg", orientation: "landscape" },
-		{ src: "./projects/kids.jpg", orientation: "portrait" },
+		{ src: "./projects/kids2.jpg", orientation: "portrait" },
 	],
 }
 export default projectsData
