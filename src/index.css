@@ -101,6 +101,7 @@ a {
 	color: #000000;
 	font-family: var(--font-paragraph);
 	transition: color 0.3s;
+	letter-spacing: .06em;
 }
 a:hover {
 	color: var(--orange-color);
@@ -123,15 +124,20 @@ h1 {
 	font-family: var(--font-heading);
 	z-index: 0;
 	padding: 0.2em 0.4em;
+	letter-spacing: .05em;
 }
 h2 {
 	font-family: var(--font-paragraph);
 	font-size: 1.6em;
 	z-index: 0;
+	letter-spacing: .06em;
+
 }
 h3 {
 	font-size: 4.2em;
 	font-family: var(--font-heading);
+	letter-spacing: .04em;
+
 }
 h4 {
 	font-size: 1.8em;
@@ -144,6 +150,7 @@ p {
 	font-family: var(--font-paragraph);
 	text-align: justify;
 	margin: 1em auto;
+	letter-spacing: .03em;
 }
 
 button {

@@ -23,20 +23,20 @@ function Opinions() {
 	return (
 		<section className='flex flex-row-reverse max-md:flex-col justify-around mt-32'>
 			<div>
-				<h3 className=' flex flex-col w-3/5 justify-center items-center whitespace-wrap max-lg:w-full '>
+				<h3 className=' flex flex-col w-4/5 justify-center items-center whitespace-wrap max-lg:w-full '>
 					Words from our
 					<span className=' px-5 bg-orange-700/90 whitespace-wrap'>
-						valued clients{" "}
+						valued clients
 					</span>
 				</h3>
-				<p className='w-1/2 my-6 max-lg:w-10/12'>
+				<p className='w-1/2 my-6 max-lg:w-9/12'>
 					<span className='ml-[-8%]'>→</span> Discover the thoughts and opinions
 					shared by our valued clients. Their encouraging words mirror our
 					dedication and zeal towards every project we undertake. Read on to
 					understand why we remain the preferred choice for so many.
 				</p>
 			</div>
-			<div className='flex flex-col w-4/5 max-lg:w-full'>
+			<div className='flex flex-col w-full max-md:w-full'>
 				<Card
 					img='./client1.jpg'
 					name={`Andrew`}

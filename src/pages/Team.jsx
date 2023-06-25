@@ -86,11 +86,16 @@ const Team = () => {
 					</h3>
 
 					<p className='p-4 w-1/2 max-lg:w-full max-lg:p-1'>
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro
-						quisquam aperiam amet tenetur laborum et. Esse modi molestiae id
-						expedita placeat odio autem dolores natus facilis incidunt atque,
-						suscipit perspiciatis nisi totam porro. Rem officia sunt harum nihil
-						nobis dolorem!
+						<strong> HomeDesign  </strong>is a premier destination for exceptional home design
+						solutions. With a team of talented designers and architects, we
+						specialize in creating captivating interiors that reflect each
+						client's unique style. From concept to execution, we pay meticulous
+						attention to detail, ensuring visually stunning and highly
+						functional spaces. Our commitment to excellence and customer
+						satisfaction sets us apart, and we bring years of industry
+						experience and expertise to every project. Trust HomeDesign to
+						transform your space into a place of inspiration and comfort with
+						exquisite design tailored to your individual needs.
 					</p>
 				</div>
 			</div>
