@@ -6,7 +6,6 @@ import OurTeam from "./../components/OurTeam"
 import Opinions from "./../components/Opinions"
 import ContactH from "./../components/ContactH"
 
-
 const Home = () => {
 	useEffect(() => {
 		const sections = document.querySelectorAll("section")
@@ -50,7 +49,6 @@ const Home = () => {
 			<section className='section'>
 				<ContactH />
 			</section>
-		
 		</main>
 	)
 }

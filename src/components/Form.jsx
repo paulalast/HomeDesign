@@ -52,7 +52,7 @@ const Form = () => {
 
 	return (
 		<form
-			className='flex flex-col w-1/2 items-center ml-14 max-md:ml-0 max-md:w-full'
+			className='flex flex-col w-full items-center ml-14 max-md:ml-0 max-md:w-full'
 			action=''
 			method='post'
 			onSubmit={handleSubmit}

@@ -23,13 +23,9 @@ const Contact = () => {
 			<p className=' m-2 w-1/2 max-md:w-full'>
 				Let's start creating your dream space together!
 			</p>
-			<ContactInfo />
-			<div className='flex flex-row relative justify-center items-center w-full'>
-				<img
-					src='./contact.jpeg'
-					className='h-full w-1/3 max-md:hidden'
-					alt='beige interior minimal'
-				/>
+
+			<div className='flex mt-8 flex-row h-fit w-full relative justify-center items-start w-full max-md:flex-col  '>
+				<ContactInfo />
 				<Form />
 			</div>
 		</div>

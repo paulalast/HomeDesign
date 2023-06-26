@@ -7,7 +7,12 @@ export default {
 				"-10": "-10",
 				10: "10",
 				20: "20",
-				"500":"1000000000000"
+				500: "1000000000000",
+			},
+			backgroundImage: {
+				backgroundImage: {
+					contactImage: "url('./contact.jpg')",
+				},
 			},
 		},
 	},
