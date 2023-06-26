@@ -8,7 +8,7 @@ const ContactInfo = () => {
             h-16 '
 			>
 				<img
-					className='mx-2 w-1/5 h-full object-contain p-5 max-md:w-1/7'
+					className='mx-2 w-1/5 h-full object-contain p-5 max-lg:w-1/3'
 					src={url}
 					alt={alt}
 				/>
@@ -17,7 +17,7 @@ const ContactInfo = () => {
 		)
 	}
 	return (
-		<div className='flex flex-col w-full h-full justify-center mt-5 max-md:flex-wrap '>
+		<div className='flex flex-col w-full h-full justify-center mt-5 max-lg:flex-wrap '>
 			<ContactBox
 				url='./location.png'
 				alt='location icon'
@@ -30,7 +30,7 @@ const ContactInfo = () => {
 				alt='mail icon'
 				text='office@homedesign.com'
 			/>
-			<div className='flex h-1/3 w-11/12 place-self-center m-4 overflow-hidden shadow-xl max-md:hidden'>
+			<div className='flex h-1/3 w-11/12 place-self-center m-4 overflow-hidden shadow-xl max-lg:hidden'>
 				<img
 					src='./contact.jpg'
 					alt=''

@@ -24,7 +24,7 @@ const Contact = () => {
 				Let's start creating your dream space together!
 			</p>
 
-			<div className='flex mt-8 flex-row h-fit w-full relative justify-center items-start w-full max-md:flex-col  '>
+			<div className='flex my-24 p-2 flex-row h-fit w-full relative justify-center items-start w-full max-lg:flex-col  max-lg:my-12 '>
 				<ContactInfo />
 				<Form />
 			</div>
