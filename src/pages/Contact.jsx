@@ -1,15 +1,17 @@
-import React,{useEffect} from "react"
+import React, { useEffect } from "react"
 import ContactInfo from "./ContactInfo"
 import Form from "../components/Form"
 import gsap from "gsap"
-
-
 
 const Contact = () => {
 	useEffect(() => {
 		gsap.fromTo(".title", { x: -600 }, { x: 0, duration: 1.5, delay: 0 })
 		gsap.fromTo(".text", { x: 1400 }, { x: 0, duration: 1.5, delay: 0.5 })
-		gsap.fromTo(".contactbox", { x: -1600 }, { x: 0, duration: 1.5, delay: 1.5 })
+		gsap.fromTo(
+			".contactbox",
+			{ x: -1600 },
+			{ x: 0, duration: 1.5, delay: 1.5 }
+		)
 	}, [])
 	return (
 		<div className='flex flex-col mt-10 w-9/12 justify-center items-center mx-auto max-md:w-11/12'>
