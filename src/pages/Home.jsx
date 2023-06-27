@@ -6,23 +6,27 @@ import OurTeam from "./../components/OurTeam"
 import Opinions from "./../components/Opinions"
 import ContactH from "./../components/ContactH"
 
+import gsap from "gsap"
+
 const Home = () => {
 	useEffect(() => {
-		const sections = document.querySelectorAll("section")
-
 		const handleScroll = () => {
+			const sections = document.querySelectorAll("section")
+
 			sections.forEach(section => {
 				const rect = section.getBoundingClientRect()
 				const isPartiallyVisible =
 					rect.top <= window.innerHeight && rect.bottom >= 0
 
 				if (isPartiallyVisible) {
-					section.classList.add("visible", "fadeIn")
+					gsap.to(section, { opacity: 1, y: 0, duration: 0.5 })
 				} else {
-					section.classList.remove("visible", "fadeIn")
+					gsap.to(section, { opacity: 0, y: 100, duration: 0.5 })
 				}
 			})
 		}
+
+		handleScroll() 
 
 		window.addEventListener("scroll", handleScroll)
 
