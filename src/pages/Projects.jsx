@@ -1,9 +1,12 @@
-import React, { useEffect } from "react"
+import React, { useEffect, useState } from "react"
 import gsap from "gsap"
 import GridProjects from "./GridProjects"
 import projectsData from "./../projectsData"
+import Modal from "./Modal"
 
 const Projects = () => {
+	const [selectedImg, setSelectedImg] = useState(null)
+
 	useEffect(() => {
 		const tl = gsap.timeline()
 
@@ -33,15 +36,35 @@ const Projects = () => {
 				Explore our stunning projects
 			</h2>
 			<div className='gridProjects'>
-				<GridProjects category={"Kitchen"} images={projectsData.kitchen} />
+				<GridProjects
+					category={"Kitchen"}
+					images={projectsData.kitchen}
+					setSelectedImg={setSelectedImg}
+				/>
 				<GridProjects
 					category={"Living Room"}
 					images={projectsData.livingRoom}
+					setSelectedImg={setSelectedImg}
 				/>
-				<GridProjects category={"Bedroom"} images={projectsData.bedroom} />
-				<GridProjects category={"Bathroom"} images={projectsData.bathroom} />
-				<GridProjects category={"Kids Room"} images={projectsData.kidsRoom} />
+				<GridProjects
+					category={"Bedroom"}
+					images={projectsData.bedroom}
+					setSelectedImg={setSelectedImg}
+				/>
+				<GridProjects
+					category={"Bathroom"}
+					images={projectsData.bathroom}
+					setSelectedImg={setSelectedImg}
+				/>
+				<GridProjects
+					category={"Kids Room"}
+					images={projectsData.kidsRoom}
+					setSelectedImg={setSelectedImg}
+				/>
 			</div>
+			{selectedImg && (
+				<Modal selectedImg={selectedImg} setSelectedImg={setSelectedImg} />
+			)}
 		</div>
 	)
 }
