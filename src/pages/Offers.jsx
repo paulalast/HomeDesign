@@ -10,15 +10,15 @@ const Offers = () => {
 	}, [])
 
 	return (
-		<div className='flex relative w-full justify-center my-12 hover:scale-105 duration-500 '>
+		<div className='flex relative w-full justify-center my-12 hover:scale-105 duration-500 max-md:scale-80 max-md:h-screen p-4 '>
 			<img
 				src='./interior2.jpg'
-				className='boxy green block  w-8/12 h-full rounded-[30px] shadow-md'
+				className='boxy green block  w-8/12 object-cover rounded-[30px] shadow-md'
 			/>
-			<h1 className='texty absolute p-2 top-[40%] bg-white/90 w-full text-6xl'>
+			<h1 className='texty absolute p-2 top-[40%] bg-white/90 w-full text-6xl max-md:text-2xl'>
 				Offers
 			</h1>
-			<h3 className='texty2 absolute p-4 top-[60%] bg-white/90 rounded-[20px] text-4xl'>Comming soon...</h3>
+			<h3 className='texty2 absolute p-4 top-[60%] bg-white/90 rounded-[20px] text-4xl max-md:text-lg max-md:p-1'>Comming soon...</h3>
 		</div>
 	)
 }
