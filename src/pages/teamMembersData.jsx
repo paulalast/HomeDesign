@@ -1,13 +1,13 @@
 const teamMembers = [
 	{
 		index: 1,
-		memberName: "Kate Kat",
+		memberName: "Kate June",
 		memberPosition: "CEO",
 		memberImg: "./member1.jpg",
 		memberAlt: "Kate",
 		memberAbout:
-			"Kate Kat is our Chief Executive Officer (CEO) and one of the lead designers in the Home Design team. With a passion for beauty and interior design, Kate guides our company in achieving design excellence and delivering exceptional experiences for our clients. Her vision and ability to create personalized projects ensure that our designs are not only aesthetically pleasing but also functional and tailored to each client's individual needs. Kate is an inspiration to the entire team and consistently strives to create spaces that are truly breathtaking.",
-		memberContact: "kate.kat@design.com",
+			"Kate June is our Chief Executive Officer (CEO) and one of the lead designers in the Home Design team. With a passion for beauty and interior design, Kate guides our company in achieving design excellence and delivering exceptional experiences for our clients. Her vision and ability to create personalized projects ensure that our designs are not only aesthetically pleasing but also functional and tailored to each client's individual needs. Kate is an inspiration to the entire team and consistently strives to create spaces that are truly breathtaking.",
+		memberContact: "kate.june@design.com",
 	},
 	{
 		index: 2,

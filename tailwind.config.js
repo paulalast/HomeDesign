@@ -17,6 +17,8 @@ export default {
 			backgroundColor: {
 				orangeColor: "#c1410b",
 			},
+
+			orangeColor: "#c1410b",
 		},
 	},
 	plugins: [],
