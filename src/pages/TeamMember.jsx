@@ -38,7 +38,7 @@ function TeamMember({
 			}`}
 		>
 			<div className='w-96 h-96 max-lg:w-64 max-lg:h-64 m-auto md:m-0 flex-none overflow-hidden'>
-				<div className='image-container transform transition-transform duration-300 hover:scale-125'>
+				<div className='image-container transform transition-transform duration-[1500ms] hover:scale-125'>
 					<img
 						className='w-full h-full object-cover object-top'
 						src={memberImg}
