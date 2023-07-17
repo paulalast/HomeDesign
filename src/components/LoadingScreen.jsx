@@ -21,7 +21,7 @@ const LoadingScreen = () => {
 				className='loading-text'
 				style={{
 					color: "#000000",
-					fontSize: "90px",
+					fontSize: "82px",
 					backgroundColor: "#ffffff",
 					padding: "10px",
 				}}

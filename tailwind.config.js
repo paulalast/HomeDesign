@@ -14,6 +14,9 @@ export default {
 					contactImage: "url('./contact.jpg')",
 				},
 			},
+			backgroundColor: {
+				orangeColor: "#c1410b",
+			},
 		},
 	},
 	plugins: [],
