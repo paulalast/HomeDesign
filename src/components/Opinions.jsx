@@ -3,17 +3,17 @@ function Card({ name, text, img, alt }) {
 	return (
 		<div className='border-2 m-4 mb-8 p-6 max-lg:mb-6 max-lg:m-0 flex flex-col items-end'>
 			<p className='mb-auto'>{text}</p>
-			<div className='flex flex-row items-flex-end mt-6 w-7/12 '>
-				<div className='flex w-1/2 rounded-full  p-0.5 mx-2'>
-					<div className='w-14 h-14 '>
+			<div className='flex flex-row justify-end items-end mt-6 h-fit w-full '>
+				<div className='flex w-3/4  items-center justify-end '>
+					<div className='flex w-14 h-14  p-1 rounded-full'>
 						<img
 							className='flex shadow-md rounded-full w-full h-full object-cover object-top hover:scale-125 duration-300'
 							src={img}
 							alt={alt}
 						/>
 					</div>
+					<p className='text-sm mx-2 font-bold '>{name}</p>
 				</div>
-				<p className='text-sm font-bold w-1/2'>{name}</p>
 			</div>
 		</div>
 	)
