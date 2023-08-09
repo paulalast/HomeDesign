@@ -9,7 +9,7 @@ const Footer = () => {
 		return (
 			<div className='flex w-full items-center justify-center  max-md:mx-1 max-md:mt-2 my-1 '>
 				<img
-					className='w-10  max-lg:w-7 hover:scale-125 duration-500 cursor-pointer   p-0.5 hover:bg-orangeColor  rounded-full'
+					className='w-10  max-lg:w-7 hover:scale-105 duration-500 cursor-pointer  mx-1 hover:bg-orangeColor/90  rounded-full'
 					src={src}
 					alt={alt}
 				/>
