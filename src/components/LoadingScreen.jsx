@@ -22,7 +22,7 @@ const LoadingScreen = () => {
 				style={{
 					color: "#000000",
 					fontSize: "82px",
-					backgroundColor: "#ffffff",
+					// backgroundColor: "#ffffff",
 					padding: "10px",
 				}}
 			>
