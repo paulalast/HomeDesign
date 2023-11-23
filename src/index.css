@@ -1,6 +1,8 @@
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
+
+
 :root {
 	--font-heading: "Cormorant Garamond", serif;
 	--font-paragraph: "Montserrat", sans-serif;
@@ -8,10 +10,11 @@
 	--font-medium: 400;
 	--font-regular: 500;
 	--font-bold: 600;
-	--orange-color: #ee6a0c;
+	--orange-color: #CCBDAE;
+
 	/* --orange-color: #986b4bf4; */
 
-	--toastify-color-progress-success: #c1410b;
+	--toastify-color-progress-success: #CCBDAE;
 	color-scheme: light dark;
 	color: rgba(255, 255, 255, 0.87);
 	background-color: #021213;

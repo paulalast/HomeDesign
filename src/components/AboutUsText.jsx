@@ -9,12 +9,12 @@ const Card = ({ title, content }) => (
 )
 const AboutUsText = () => {
 	return (
-		<section className='flex flex-col m-2 mt-0 '>
+		<section className=' flex flex-col m-2 mt-0 '>
 			<h3 className='my-2'>
 				Why we should be your
 				<span className='bg-orange-700'> first choice ?</span>
 			</h3>
-			<div className='flex my-14 mx-4 max-lg:flex-wrap mx-0 max-lg:my-2'>
+			<div className='flex my-14  max-lg:flex-wrap mx-0 max-lg:my-2'>
 				<Card
 					title='Unmatched Experience'
 					content='We bring years of industry experience to ensure the best results for your projects. We bring years of industry experience to ensure the best results for your projects.'

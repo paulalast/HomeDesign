@@ -14,7 +14,7 @@ const Team = () => {
 			<div className='flex max-md:flex-col justify-between align-self-center mx-1 my-2 p-6'>
 				<div className='flex flex-col items-start m-2'>
 					<h3 className='text-left title'>
-						Meet our<span className='bg-orange-700 px-2'>Team </span>
+						Meet our<span className='bg-o px-2'>Team </span>
 					</h3>
 
 					<p className=' text p-4 w-1/2 max-lg:w-full max-lg:p-1'>

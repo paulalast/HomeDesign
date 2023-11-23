@@ -14,7 +14,7 @@ import Projects from "./pages/Projects"
 import Team from "./pages/Team"
 import Contact from "./pages/Contact"
 const App = () => {
-	const [isLoading, setIsLoading] = useState(true)
+	const [isLoading, setIsLoading] = useState(false)
 
 	useEffect(() => {
 		const timer = setTimeout(() => {
@@ -38,7 +38,7 @@ const App = () => {
 	}
 
 	return (
-		<main>
+		<main className=' max-w-[1440px] mx-auto'>
 			{isLoading ? (
 				<LoadingScreen />
 			) : (
@@ -52,7 +52,7 @@ const App = () => {
 					<ScrollToTop />
 					<Routes>
 						<Route exact path='/' element={<Home />} />
-						<Route path='/offers' element={<Offers />} />
+
 						<Route path='/projects' element={<Projects />} />
 						<Route path='/team' element={<Team />} />
 						<Route path='/contact' element={<Contact />} />

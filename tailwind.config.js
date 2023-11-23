@@ -1,8 +1,14 @@
 /** @type {import('tailwindcss').Config} */
 export default {
 	content: ["./index.html", "./src/**/*.{js,jsx}"],
+	
 	theme: {
 		extend: {
+			container: {
+				center: true,
+				padding: ".5rem",
+				margin: "1rem",
+			},
 			zIndex: {
 				"-10": "-10",
 				10: "10",
@@ -16,9 +22,14 @@ export default {
 			},
 			backgroundColor: {
 				orangeColor: "#c1410b",
+				orangeColor: "#B26F66",
+				"orange-700": "#CCBDAE",
+			},
+			colors: {
+				black: "#2C2A2B",
 			},
 
-			orangeColor: "#c1410b",
+			// orangeColor: "#B26F66",
 		},
 	},
 	plugins: [],

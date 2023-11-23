@@ -1,3 +1,7 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
 * {
 	box-sizing: border-box;
 	margin: 0;
@@ -134,7 +138,7 @@
 	position: relative;
 	align-self: center;
 	margin: 5rem;
-	width: 80vw;
+	width: 100%;
 	max-height: 100vh;
 	grid-template-columns: repeat(4, 1fr);
 	grid-template-rows: repeat(4, 1fr);
@@ -261,7 +265,7 @@
 }
 
 .Toastify__toast--success {
-	background-color: #c1410b;
+	background-color: #CCBDAE;
 }
 
 .Toastify__toast-body {
@@ -270,8 +274,8 @@
 	color: #000000;
 }
 .Toastify__progress-bar--success {
-	background: #c1410b !important;
+	background: #CCBDAE !important;
 }
 svg {
-	fill: #c1410b !important;
+	fill: #CCBDAE !important;
 }
