@@ -9,12 +9,12 @@ import Footer from "./components/Footer"
 import ScrollToTop from "./components/ScrollToTop"
 
 import Home from "./pages/Home"
-import Offers from "./pages/Offers"
+
 import Projects from "./pages/Projects"
 import Team from "./pages/Team"
 import Contact from "./pages/Contact"
 const App = () => {
-	const [isLoading, setIsLoading] = useState(false)
+	const [isLoading, setIsLoading] = useState(true)
 
 	useEffect(() => {
 		const timer = setTimeout(() => {
