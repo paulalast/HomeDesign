@@ -8,7 +8,7 @@ const ContactInfo = () => {
             h-16 '
 			>
 				<img
-					className='mx-2 w-1/5 h-full object-contain p-5 max-lg:w-1/3'
+					className='contact-icon mx-2 w-1/5 h-full object-contain p-5 max-lg:w-1/3'
 					src={url}
 					alt={alt}
 				/>

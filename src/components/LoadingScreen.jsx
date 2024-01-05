@@ -16,13 +16,11 @@ const LoadingScreen = () => {
 	}, [])
 
 	return (
-		<div className='loading-root w-full h-screen flex justify-center items-center'>
+		<div className='loading-root w-full h-screen flex justify-center items-center darkMode'>
 			<h1
 				className='loading-text'
 				style={{
-					color: "#000000",
 					fontSize: "82px",
-					// backgroundColor: "#ffffff",
 					padding: "10px",
 				}}
 			>

@@ -53,12 +53,12 @@ function TeamMember({
 				<motion.a
 					href={`mailto:${memberContact}`}
 					onClick={handleClick}
-					className='flex flex-row  items-center justify-center py-2 text-sm'
+					className=' flex flex-row  items-center justify-center py-2 text-sm'
 					initial='initial'
 					whileHover='animate'
 				>
 					<motion.img
-						className='w-8 p-1 mr-2 object-fit '
+						className='arrow-icon w-8 p-1 mr-2 object-fit '
 						src='send.png'
 						alt='send icon'
 						variants={arrowVariant}

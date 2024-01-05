@@ -2,7 +2,6 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
-
 :root {
 	--font-heading: "Cormorant Garamond", serif;
 	--font-paragraph: "Montserrat", sans-serif;
@@ -10,11 +9,11 @@
 	--font-medium: 400;
 	--font-regular: 500;
 	--font-bold: 600;
-	--orange-color: #CCBDAE;
+	--orange-color: #ccbdae;
 
 	/* --orange-color: #986b4bf4; */
 
-	--toastify-color-progress-success: #CCBDAE;
+	--toastify-color-progress-success: #ccbdae;
 	color-scheme: light dark;
 	color: rgba(255, 255, 255, 0.87);
 	background-color: #021213;
@@ -34,7 +33,7 @@
 	color: #ffffff;
 }
 .darkMode a {
-    color: #ffffff;
+	color: #ffffff;
 }
 
 @media (prefers-color-scheme: light) {
@@ -44,7 +43,6 @@
 	}
 	a {
 		color: #000000;
-	
 	}
 	a:hover {
 		color: #1b1b1d;
@@ -86,6 +84,20 @@
 	button {
 		color: #000;
 	}
+	.loading-text {
+		color: #000000;
+	}
+	.icon-container,
+	.arrow-icon, .contact-icon {
+		filter: invert(0);
+	}
+}
+.loading-text {
+	color: #ffffff;
+}
+.icon-container,
+.arrow-icon, .contact-icon {
+	filter: invert(1);
 }
 .bold {
 	font-weight: var(--font-bold);
@@ -110,7 +122,7 @@ a {
 	text-decoration: inherit;
 	font-family: var(--font-paragraph);
 	transition: color 0.3s;
-	letter-spacing: .06em;
+	letter-spacing: 0.06em;
 }
 a:hover {
 	color: var(--orange-color);
@@ -133,20 +145,18 @@ h1 {
 	font-family: var(--font-heading);
 	z-index: 0;
 	padding: 0.2em 0.4em;
-	letter-spacing: .05em;
+	letter-spacing: 0.05em;
 }
 h2 {
 	font-family: var(--font-paragraph);
 	font-size: 1.6em;
 	z-index: 0;
-	letter-spacing: .06em;
-
+	letter-spacing: 0.06em;
 }
 h3 {
 	font-size: 4.2em;
 	font-family: var(--font-heading);
-	letter-spacing: .04em;
-
+	letter-spacing: 0.04em;
 }
 h4 {
 	font-size: 1.8em;
@@ -159,7 +169,7 @@ p {
 	font-family: var(--font-paragraph);
 	text-align: justify;
 	margin: 1em auto;
-	letter-spacing: .03em;
+	letter-spacing: 0.03em;
 }
 
 button {
