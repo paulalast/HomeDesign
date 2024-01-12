@@ -9,7 +9,7 @@ const OurTeam = () => {
 	}
 	return (
 		<section
-			className='flex max-md:flex-col justify-between align-self-center mx-1 my-2  p-6 my-12 
+			className='flex max-md:flex-col justify-between align-self-center mx-1 my-2  p-6 
         '
 		>
 			<div className='flex flex-col items-start m-2 '>

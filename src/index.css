@@ -85,7 +85,7 @@
 		color: #000;
 	}
 	.loading-text {
-		color: #000000;
+		color: #ffffff;
 	}
 	.icon-container,
 	.arrow-icon, .contact-icon {
@@ -93,11 +93,11 @@
 	}
 }
 .loading-text {
-	color: #ffffff;
+	color: #000000;
 }
 .icon-container,
 .arrow-icon, .contact-icon {
-	filter: invert(1);
+	filter: invert(0);
 }
 .bold {
 	font-weight: var(--font-bold);
